@@ -45,7 +45,7 @@ class LSUpdateMuteEvent;
 class LSChangeStabilityEvent;
 
 /// <summary>
-/// ‰¹º‚ğ’Ç‰Áo—Í‚·‚é‚½‚ß‚ÌƒR[ƒ‹ƒoƒbƒNŠÖ”
+/// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½oï¿½Í‚ï¿½ï¿½é‚½ï¿½ß‚ÌƒRï¿½[ï¿½ï¿½ï¿½oï¿½bï¿½Nï¿½Öï¿½
 /// </summary>
 typedef unsigned int (*RequestPlayDataCallback)(
 	void* target,
@@ -59,7 +59,7 @@ typedef unsigned int (*RequestPlayDataCallback)(
 	long long* ntpTimeMs);
 
 /// <summary>
-/// com::ricoh::livestreaming::ErrorDetail‚ÌWrapper
+/// com::ricoh::livestreaming::ErrorDetailï¿½ï¿½Wrapper
 /// </summary>
 class ErrorDetail 
 {
@@ -71,7 +71,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::LSTrack‚ÌWrapper
+/// com::ricoh::livestreaming::LSTrackï¿½ï¿½Wrapper
 /// </summary>
 class LSTrack
 {
@@ -84,7 +84,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::LSTrackOption‚ÌWrapper
+/// com::ricoh::livestreaming::LSTrackOptionï¿½ï¿½Wrapper
 /// </summary>
 class LSTrackOption
 {
@@ -97,7 +97,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::SDKErrorEvent‚ÌWrapper
+/// com::ricoh::livestreaming::SDKErrorEventï¿½ï¿½Wrapper
 /// </summary>
 class SDKErrorEvent 
 {
@@ -108,7 +108,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::SDKException‚ÌWrapper
+/// com::ricoh::livestreaming::SDKExceptionï¿½ï¿½Wrapper
 /// </summary>
 class SDKException 
 {
@@ -121,7 +121,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::Client‚ÌWrapper
+/// com::ricoh::livestreaming::Clientï¿½ï¿½Wrapper
 /// </summary>
 class Client 
 {
@@ -148,7 +148,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::ReceivingOption‚ÌWrapper
+/// com::ricoh::livestreaming::ReceivingOptionï¿½ï¿½Wrapper
 /// </summary>
 class ReceivingOption
 {
@@ -158,7 +158,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::SendingOption‚ÌWrapper
+/// com::ricoh::livestreaming::SendingOptionï¿½ï¿½Wrapper
 /// </summary>
 class SendingOption
 {
@@ -168,7 +168,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::Option‚ÌWrapper
+/// com::ricoh::livestreaming::Optionï¿½ï¿½Wrapper
 /// </summary>
 class Option 
 {
@@ -193,7 +193,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::MediaStream‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::MediaStreamï¿½ï¿½Wrapper
 /// </summary>
 class MediaStream
 {
@@ -206,7 +206,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::MediaStreamConstraints‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::MediaStreamConstraintsï¿½ï¿½Wrapper
 /// </summary>
 class MediaStreamConstraints
 {
@@ -220,7 +220,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::AudioDataCapturer‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::AudioDataCapturerï¿½ï¿½Wrapper
 /// </summary>
 class AudioDataCapturer
 {
@@ -230,7 +230,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::VideoCapturer‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::VideoCapturerï¿½ï¿½Wrapper
 /// </summary>
 class VideoCapturer
 {
@@ -241,7 +241,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::VideoDeviceCapturer‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::VideoDeviceCapturerï¿½ï¿½Wrapper
 /// </summary>
 class VideoDeviceCapturer:public VideoCapturer
 {
@@ -254,7 +254,7 @@ public:
 };
 
 /// <summary>
-/// ”Ä—pƒLƒƒƒvƒ`ƒƒƒ‰[iƒoƒCƒg”z—ñ‚Å‰æ‘œ‚ğ‘—Mj
+/// ï¿½Ä—pï¿½Lï¿½ï¿½ï¿½vï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½iï¿½oï¿½Cï¿½gï¿½zï¿½ï¿½Å‰æ‘œï¿½ğ‘—Mï¿½j
 /// </summary>
 class ByteArrayCapturer : public VideoCapturer
 {
@@ -266,7 +266,7 @@ public:
 };
 
 /// <summary>
-/// ”Ä—pƒŒƒ“ƒ_ƒ‰[iƒoƒCƒg”z—ñ‚Å‰æ‘œ‚ğóMj
+/// ï¿½Ä—pï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½[ï¿½iï¿½oï¿½Cï¿½gï¿½zï¿½ï¿½Å‰æ‘œï¿½ï¿½ï¿½ï¿½Mï¿½j
 /// </summary>
 class ByteArrayRenderer
 {
@@ -276,7 +276,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::CodecUtil‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::CodecUtilï¿½ï¿½Wrapper
 /// </summary>
 class CodecUtil
 {
@@ -286,7 +286,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::VideoCapturerDeviceCapability‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::VideoCapturerDeviceCapabilityï¿½ï¿½Wrapper
 /// </summary>
 class VideoCapturerDeviceCapability
 {
@@ -298,7 +298,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::DeviceInfo‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::DeviceInfoï¿½ï¿½Wrapper
 /// </summary>
 class DeviceInfo
 {
@@ -309,7 +309,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::DeviceUtil‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::DeviceUtilï¿½ï¿½Wrapper
 /// </summary>
 class DeviceUtil
 {
@@ -322,7 +322,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::RTCStats‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::RTCStatsï¿½ï¿½Wrapper
 /// </summary>
 class RTCStats
 {
@@ -335,7 +335,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::RTCStatsReport‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::RTCStatsReportï¿½ï¿½Wrapper
 /// </summary>
 class RTCStatsReport
 {
@@ -346,7 +346,7 @@ public:
 };
 
 /// <summary>
-/// RTCStatsReport‚ğƒƒOo—Í‚·‚é
+/// RTCStatsReportï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½oï¿½Í‚ï¿½ï¿½ï¿½
 /// </summary>
 class RtcStatsWriter
 {
@@ -357,7 +357,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::MediaStreamTrack‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::MediaStreamTrackï¿½ï¿½Wrapper
 /// </summary>
 class MediaStreamTrack
 {
@@ -382,7 +382,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::AudioTrack‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::AudioTrackï¿½ï¿½Wrapper
 /// </summary>
 class AudioTrack:public MediaStreamTrack
 {
@@ -391,7 +391,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::webrtc::VideoTrack‚ÌWrapper
+/// com::ricoh::livestreaming::webrtc::VideoTrackï¿½ï¿½Wrapper
 /// </summary>
 class VideoTrack : public MediaStreamTrack
 {
@@ -416,7 +416,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::SendingVideoOption‚ÌWrapper
+/// com::ricoh::livestreaming::SendingVideoOptionï¿½ï¿½Wrapper
 /// </summary>
 class SendingVideoOption {
 public:
@@ -431,7 +431,7 @@ public:
 	enum class SendingPriority 
 	{
 		isNull = -999,
-		Normal,
+		Normal = 0,
 		High,
 	};
 
@@ -445,7 +445,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::unity::WindowProcedureHok‚ÌWrapper
+/// com::ricoh::livestreaming::unity::WindowProcedureHokï¿½ï¿½Wrapper
 /// </summary>
 class WindowProcedureHook 
 {
@@ -473,7 +473,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::LibWebrtcLogOption‚ÌWrapper
+/// com::ricoh::livestreaming::LibWebrtcLogOptionï¿½ï¿½Wrapper
 /// </summary>
 class LibWebrtcLogOption
 {
@@ -567,7 +567,7 @@ public:
 };
 
 /// <summary>
-/// com::ricoh::livestreaming::IClientListener‚ÌWrapper
+/// com::ricoh::livestreaming::IClientListenerï¿½ï¿½Wrapper
 /// </summary>
 class IClientListener 
 {
